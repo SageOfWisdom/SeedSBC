@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 114.3 38.1)
-		(size 63.5 38.1)
+		(at 127 25.4)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "39bb5c54-36f6-41e0-89d5-4e2c3d9a4a2f")
 		(property "Sheetname" "DRAM"
-			(at 114.3 37.3884 0)
+			(at 127 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,242 @@
 			)
 		)
 		(property "Sheetfile" "DRAM.kicad_sch"
-			(at 114.3 76.7846 0)
+			(at 127 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A10_AP" input
+			(at 127 30.48 180)
+			(uuid "26ef938a-7fef-43f1-9369-28a6a6b6128f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A11" input
+			(at 127 29.21 180)
+			(uuid "f1c37adc-0d20-4071-b744-349d9f08d980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A12_BC_B" input
+			(at 127 27.94 180)
+			(uuid "2cd85d4d-fe0a-4c07-8847-0345fc09efda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A[9..0]" input
+			(at 127 31.75 180)
+			(uuid "762995db-ff5f-4ae7-b959-946fb68e50dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A[14..13]" input
+			(at 127 26.67 180)
+			(uuid "09341a9d-c341-4e49-abb4-3a493784614d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BA[2..0]" input
+			(at 127 35.56 180)
+			(uuid "c1e52481-19df-4463-bd90-127ed97b59a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAS_B" input
+			(at 127 49.53 180)
+			(uuid "4cbe908a-b4c3-47e4-af8a-edd3711f8481")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CK" input
+			(at 127 39.37 180)
+			(uuid "989d69f6-02b4-4b27-bdcf-908c5b8dcf2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CKE" input
+			(at 127 43.18 180)
+			(uuid "2c87649c-1032-45b9-86ea-8c9c806af605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CK_B" input
+			(at 127 40.64 180)
+			(uuid "34074a22-c7f4-4435-a57c-9c805882c6fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_B" input
+			(at 127 46.99 180)
+			(uuid "c2d5ac00-af0c-4c99-bc85-657f86077a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDM" input
+			(at 127 54.61 180)
+			(uuid "90b2d8ad-bf87-46e3-8bf9-6eeafd2b6c10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDQS" input
+			(at 127 59.69 180)
+			(uuid "bfd52a80-c009-45f8-9bea-4ab8492bedcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDQS_B" input
+			(at 127 60.96 180)
+			(uuid "b1361808-5db6-4b8d-a536-7b2c529ab787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ODT" input
+			(at 127 72.39 180)
+			(uuid "260df78e-663e-455a-a83e-af1e2003644f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RAS_B" input
+			(at 127 48.26 180)
+			(uuid "326abd28-31ae-41fe-a7e7-d87ed389eaf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_B" input
+			(at 127 74.93 180)
+			(uuid "93046ccb-242f-4a81-ac25-9b4ce2333440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UDM" input
+			(at 127 55.88 180)
+			(uuid "dfda4e58-e916-438f-b34f-92cdf672c18d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UDQS" input
+			(at 127 62.23 180)
+			(uuid "e9909f5f-ddee-43cd-b4f8-268b348e54dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UDQS_B" input
+			(at 127 63.5 180)
+			(uuid "e6254269-9876-411a-aee0-4d38293639c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WE_B" input
+			(at 127 50.8 180)
+			(uuid "c23965f3-dc5b-4118-bdb0-75a0bda2a94e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DQ[15..8]" bidirectional
+			(at 127 68.58 180)
+			(uuid "1545e06e-f5ed-4ebb-a737-7a28cd352c59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DQ[7..0]" bidirectional
+			(at 127 67.31 180)
+			(uuid "c780c6ef-6640-4243-bf66-15011e7aa72f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -48,8 +278,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 101.6)
-		(size 63.5 38.1)
+		(at 203.2 101.6)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +294,7 @@
 		)
 		(uuid "903e1d2a-b6c4-4391-805f-bc3e70a98e1c")
 		(property "Sheetname" "Decap"
-			(at 190.5 100.8884 0)
+			(at 203.2 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +303,7 @@
 			)
 		)
 		(property "Sheetfile" "DECAP.kicad_sch"
-			(at 190.5 140.2846 0)
+			(at 203.2 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +320,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 101.6)
-		(size 63.5 38.1)
+		(at 127 101.6)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +336,7 @@
 		)
 		(uuid "a7fd76fb-3981-418d-965b-fd74418ce764")
 		(property "Sheetname" "Power"
-			(at 114.3 100.8884 0)
+			(at 127 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +345,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 114.3 140.2846 0)
+			(at 127 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +362,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 38.1)
-		(size 63.5 38.1)
+		(at 203.2 25.4)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +378,7 @@
 		)
 		(uuid "c62b2561-e816-4d42-bcad-0eb294abcbae")
 		(property "Sheetname" "SD_MMC"
-			(at 190.5 37.3884 0)
+			(at 203.2 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,12 +387,52 @@
 			)
 		)
 		(property "Sheetfile" "SD_MMC.kicad_sch"
-			(at 190.5 76.7846 0)
+			(at 203.2 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SD_CS" input
+			(at 203.2 31.75 180)
+			(uuid "03b83cea-a55f-4cb9-8e45-eabc089cd8a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_MISO" output
+			(at 203.2 39.37 180)
+			(uuid "8664ebb9-d7a8-4118-8d92-997287ec30bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_MOSI" input
+			(at 203.2 36.83 180)
+			(uuid "09e5a83f-b145-4844-a5f4-469e1fa216fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_SCK" input
+			(at 203.2 34.29 180)
+			(uuid "47ee9163-c970-476a-aa5d-d09c9272abe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -174,8 +444,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 101.6)
-		(size 63.5 38.1)
+		(at 50.8 101.6)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +460,7 @@
 		)
 		(uuid "e2312610-a983-48d9-81b5-de5a27d79208")
 		(property "Sheetname" "Input Output"
-			(at 38.1 100.8884 0)
+			(at 50.8 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +469,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 38.1 140.2846 0)
+			(at 50.8 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +486,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 38.1)
-		(size 63.5 38.1)
+		(at 50.8 25.4)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -232,7 +502,7 @@
 		)
 		(uuid "edfc8c1e-9a47-4753-b4ba-c75283de5336")
 		(property "Sheetname" "FPGA"
-			(at 38.1 37.3884 0)
+			(at 50.8 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 38.1 76.7846 0)
+			(at 50.8 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
