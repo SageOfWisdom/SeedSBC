@@ -603,14 +603,6 @@
       "Root"
     ],
     [
-      "edfc8c1e-9a47-4753-b4ba-c75283de5336",
-      "FPGA"
-    ],
-    [
-      "39bb5c54-36f6-41e0-89d5-4e2c3d9a4a2f",
-      "DRAM"
-    ],
-    [
       "c62b2561-e816-4d42-bcad-0eb294abcbae",
       "SD_MMC"
     ],
@@ -625,6 +617,18 @@
     [
       "903e1d2a-b6c4-4391-805f-bc3e70a98e1c",
       "Decap"
+    ],
+    [
+      "ead0e1f6-3bed-4a4d-ba2e-bcbc99eccbe8",
+      "FPGA + DRAM"
+    ],
+    [
+      "473a3989-8d64-4465-9744-9671bd8b9561",
+      "DRAM"
+    ],
+    [
+      "45951699-7d91-42f2-85db-3c9973456bfb",
+      "FPGA"
     ]
   ],
   "text_variables": {}
