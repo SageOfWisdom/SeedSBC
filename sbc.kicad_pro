@@ -604,7 +604,7 @@
     ],
     [
       "c62b2561-e816-4d42-bcad-0eb294abcbae",
-      "SD_MMC"
+      "SD MMC"
     ],
     [
       "e2312610-a983-48d9-81b5-de5a27d79208",
@@ -620,11 +620,11 @@
     ],
     [
       "ead0e1f6-3bed-4a4d-ba2e-bcbc99eccbe8",
-      "FPGA + DRAM"
+      "FPGA + SRAM"
     ],
     [
       "473a3989-8d64-4465-9744-9671bd8b9561",
-      "DRAM"
+      "SRAM"
     ],
     [
       "45951699-7d91-42f2-85db-3c9973456bfb",

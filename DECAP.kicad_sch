@@ -838,7 +838,7 @@
 		)
 		(uuid "fbf071d3-36e6-408b-93e2-274cba30dd60")
 	)
-	(global_label "P1V1"
+	(global_label "P1V2"
 		(shape passive)
 		(at 127 44.45 180)
 		(fields_autoplaced yes)
@@ -882,7 +882,7 @@
 			)
 		)
 	)
-	(global_label "P1V35"
+	(global_label "P5V"
 		(shape passive)
 		(at 124.46 82.55 180)
 		(fields_autoplaced yes)
@@ -894,7 +894,7 @@
 		)
 		(uuid "3aea4c1a-95ae-467c-9c70-df1a05f42562")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.599 82.55 0)
+			(at 119.018 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 			)
 		)
 	)
-	(global_label "P1V35"
+	(global_label "P5V"
 		(shape passive)
 		(at 149.86 82.55 180)
 		(fields_autoplaced yes)
@@ -982,7 +982,7 @@
 		)
 		(uuid "ab21bfd5-9b11-48e2-9623-750c9473a1d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.999 82.55 0)
+			(at 144.418 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +992,7 @@
 			)
 		)
 	)
-	(global_label "P1V1"
+	(global_label "P1V2"
 		(shape passive)
 		(at 63.5 44.45 180)
 		(fields_autoplaced yes)

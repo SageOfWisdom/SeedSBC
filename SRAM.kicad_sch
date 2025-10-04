@@ -3077,7 +3077,7 @@
 		)
 		(uuid "e5656f4d-79a9-4897-b9e4-a9daf7eeeaa5")
 	)
-	(global_label "P1V35"
+	(global_label "P3V3"
 		(shape passive)
 		(at 119.38 53.34 180)
 		(fields_autoplaced yes)
@@ -3089,7 +3089,7 @@
 		)
 		(uuid "ed0acb55-d8e7-4935-8e7a-0e188fe6c1b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.519 53.34 0)
+			(at 112.7285 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,17 +3120,6 @@
 			(justify right)
 		)
 		(uuid "10f67daf-037b-42ca-8cac-f4f1af1ed215")
-	)
-	(hierarchical_label "DQ[15..8]"
-		(shape bidirectional)
-		(at 95.25 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d67eb05-c7ec-4338-818e-75cae6fcd42d")
 	)
 	(hierarchical_label "SRAM_CE2"
 		(shape input)
@@ -3164,17 +3153,6 @@
 			(justify right)
 		)
 		(uuid "82fe7e36-a71e-44fe-b768-ff2e0476ed47")
-	)
-	(hierarchical_label "DQ[7..0]"
-		(shape bidirectional)
-		(at 95.25 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87a23c4f-ba42-4760-bf91-4f9d9338c03d")
 	)
 	(hierarchical_label "SRAM_WE_B"
 		(shape input)
@@ -3952,7 +3930,7 @@
 			(uuid "0a9cc24f-4c9e-478c-98c2-0b55ecb6db0f")
 		)
 		(instances
-			(project ""
+			(project "sbc"
 				(path "/9328a39f-e46f-4e23-a67b-f837d10a1254/ead0e1f6-3bed-4a4d-ba2e-bcbc99eccbe8/473a3989-8d64-4465-9744-9671bd8b9561"
 					(reference "U6")
 					(unit 1)
