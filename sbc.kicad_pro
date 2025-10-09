@@ -37,22 +37,89 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.2,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|107327500|120545000|0976d6d6-f0a9-4ba1-bb1b-06461b63ab2c|aa60c274-17c0-4ab7-9b15-30db4bf6e93b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|107702500|118835000|0976d6d6-f0a9-4ba1-bb1b-06461b63ab2c|78f0192e-58a5-4396-9595-d902196546f7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|107702500|118835000|0976d6d6-f0a9-4ba1-bb1b-06461b63ab2c|99d80363-7858-4860-8927-7b0464ad9df9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|107702500|119100000|0976d6d6-f0a9-4ba1-bb1b-06461b63ab2c|56fec79c-355a-4f0d-b7eb-ef377f384624",
+          ""
+        ],
+        [
+          "copper_edge_clearance|107702500|119100000|0976d6d6-f0a9-4ba1-bb1b-06461b63ab2c|6556bdb2-70d6-4202-adec-a1cffc7b41bd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|146680000|81885000|6f64a05d-57d9-478a-ad14-0ec9b7587afb|da8ee367-088e-46fc-9d24-792ca3d63c84",
+          ""
+        ],
+        [
+          "copper_edge_clearance|148125000|82260000|6f64a05d-57d9-478a-ad14-0ec9b7587afb|8ddb5750-a01e-4e7d-925d-d3a2dbdea23e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|148125000|82260000|6f64a05d-57d9-478a-ad14-0ec9b7587afb|f6069348-6e64-41e6-93a0-fd9b1a0999ba",
+          ""
+        ],
+        [
+          "copper_edge_clearance|148390000|82260000|6f64a05d-57d9-478a-ad14-0ec9b7587afb|5b23e2f1-5038-47bb-9339-181066ea5006",
+          ""
+        ],
+        [
+          "copper_edge_clearance|148390000|82260000|6f64a05d-57d9-478a-ad14-0ec9b7587afb|f6c3c8a0-7d3a-4333-8d88-b0f99940a1c2",
+          ""
+        ],
+        [
+          "copper_edge_clearance|161500000|81885000|c86545da-081d-42eb-987e-5cac58075c00|1dcff61c-dc10-4438-b254-f7c9b37d8127",
+          ""
+        ],
+        [
+          "copper_edge_clearance|162945000|82260000|c86545da-081d-42eb-987e-5cac58075c00|a1944127-8a46-41ea-9ba5-4ab2d8593e27",
+          ""
+        ],
+        [
+          "copper_edge_clearance|162945000|82260000|c86545da-081d-42eb-987e-5cac58075c00|ff942b09-6807-46dd-bc3d-f7363ba94287",
+          ""
+        ],
+        [
+          "copper_edge_clearance|163210000|82260000|c86545da-081d-42eb-987e-5cac58075c00|12ed97f3-639c-471f-8ab2-557d489f3925",
+          ""
+        ],
+        [
+          "copper_edge_clearance|163210000|82260000|c86545da-081d-42eb-987e-5cac58075c00|306ca2ea-1f22-42c7-b7f0-8046fef0432f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +247,19 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.254,
+        0.3,
+        0.3302,
+        0.381,
+        0.508,
+        0.635,
+        0.762,
+        0.889,
+        1.016
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +286,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -473,6 +557,18 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.08,
+        "microvia_diameter": 0.2,
+        "microvia_drill": 0.15,
+        "name": "FPGA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.3,
+        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -480,7 +576,424 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/SD_DAT3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/SD_DAT2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/SD_DAT1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/SD_DAT0"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/SD MMC/SD_CMD"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/SD_CLK"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T10"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T9"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T8"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T7"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T6"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T4"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_T1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/LED_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/LED_R"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/LED_G"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/USR_BTN1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B10"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B9"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B8"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "P3V3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A19"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A18"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A17"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A16"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A15"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A14"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A13"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A12"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A11"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A10"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A9"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A8"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A7"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A6"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A4"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/A0"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B7"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/CDONE"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_OE_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_WE_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_CE_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_CE2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_UB_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SRAM_LB_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B6"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO0"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO4"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO6"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO7"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO_RXF_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO_TXE_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO_RD_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FIFO_WR_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ15"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ14"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ13"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ12"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ11"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ10"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ9"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ8"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ7"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ6"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ4"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/DQ0"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "CLK"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B4"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B3"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/IO_B1"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/USB2_DN"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/USB2_DP"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/USB3_DN"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/USB3_DP"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_CS"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_SCK"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_DI"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_DO"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "P2V5"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "P1V2"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "EXT_PLL1P"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "EXT_PLL1N"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "EXT_PLL2P"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "EXT_PLL2N"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/CRESET_B"
+      },
+      {
+        "netclass": "FPGA",
+        "pattern": "/FPGA + SRAM/FPGA/F"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -625,6 +1138,10 @@
     [
       "473a3989-8d64-4465-9744-9671bd8b9561",
       "SRAM"
+    ],
+    [
+      "738f817b-bbd2-432f-a76f-bd5d7c61c40c",
+      "USB"
     ],
     [
       "45951699-7d91-42f2-85db-3c9973456bfb",
