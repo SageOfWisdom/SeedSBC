@@ -3808,28 +3808,6 @@
 			)
 		)
 	)
-	(global_label "EXT_PLL2N"
-		(shape input)
-		(at 43.18 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ebe223d-4631-4bef-a781-29dac12e0dfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0349 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_VBUS2"
 		(shape passive)
 		(at 198.12 50.8 180)
@@ -3874,28 +3852,6 @@
 			)
 		)
 	)
-	(global_label "P5V"
-		(shape passive)
-		(at 257.81 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48ccb1f7-5e0f-42a7-b0ce-7cf77898f647")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.368 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P1V2"
 		(shape passive)
 		(at 257.81 160.02 180)
@@ -3909,50 +3865,6 @@
 		(uuid "66dd4a30-8c8e-4252-90f1-2aeb7c4ee03f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.1585 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXT_PLL1P"
-		(shape input)
-		(at 43.18 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78e090eb-116c-44cf-8fd1-b3cda6e75d55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0954 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXT_PLL2P"
-		(shape input)
-		(at 43.18 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83ac0335-225e-4ae0-a256-88102e29dce5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0954 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +3918,7 @@
 			)
 		)
 	)
-	(global_label "EXT_PLL1N"
+	(global_label "EXT_PLL2N"
 		(shape input)
 		(at 43.18 85.09 180)
 		(fields_autoplaced yes)
@@ -4016,7 +3928,7 @@
 			)
 			(justify right)
 		)
-		(uuid "92fd5a7a-624d-4999-ac6c-25118d2eb880")
+		(uuid "984a62e0-82bf-461c-bfa3-2e6da0e074a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.0349 85.09 0)
 			(effects
@@ -4072,6 +3984,28 @@
 			)
 		)
 	)
+	(global_label "EXT_PLL1P"
+		(shape input)
+		(at 43.18 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acee7bd1-6f2c-49e6-878a-5f1f4df4749e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.0954 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2V5"
 		(shape passive)
 		(at 257.81 154.94 180)
@@ -4085,6 +4019,72 @@
 		(uuid "bdeb44a6-752f-45f3-b5b4-21176e53841d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.1585 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_PLL2P"
+		(shape input)
+		(at 43.18 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bef5e3b1-5138-4368-b1eb-88451d451516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.0954 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_VBUS2"
+		(shape passive)
+		(at 257.81 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb321344-ed5b-4ea1-85d4-d322142c9529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.0504 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_PLL1N"
+		(shape input)
+		(at 43.18 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d08919cb-80ed-4f18-840f-67a00ea5de6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.0349 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

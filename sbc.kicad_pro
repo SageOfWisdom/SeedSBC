@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -188,7 +188,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -196,10 +196,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -249,6 +249,8 @@
       ],
       "track_widths": [
         0.0,
+        0.05,
+        0.15,
         0.2,
         0.254,
         0.3,
@@ -542,7 +544,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -553,22 +555,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.08,
-        "microvia_diameter": 0.2,
-        "microvia_drill": 0.15,
-        "name": "FPGA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "via_diameter": 0.3,
-        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -578,419 +568,419 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/SD_DAT3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/SD_DAT2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/SD_DAT1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/SD_DAT0"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/SD MMC/SD_CMD"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/SD_CLK"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T10"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T9"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T8"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T7"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T6"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T4"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_T1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/LED_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/LED_R"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/LED_G"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/USR_BTN1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B10"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B9"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B8"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "P3V3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A19"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A18"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A17"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A16"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A15"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A14"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A13"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A12"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A11"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A10"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A9"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A8"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A7"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A6"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A4"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/A0"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B7"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/CDONE"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_OE_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_WE_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_CE_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_CE2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_UB_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SRAM_LB_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B6"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO0"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO4"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO6"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO7"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO_RXF_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO_TXE_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO_RD_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FIFO_WR_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ15"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ14"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ13"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ12"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ11"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ10"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ9"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ8"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ7"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ6"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ4"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/DQ0"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "CLK"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B4"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B3"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/IO_B1"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/USB2_DN"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/USB2_DP"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/USB3_DN"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/USB3_DP"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "GND"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_CS"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_SCK"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_DI"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/SPI_CNFG_DO"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "P2V5"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "P1V2"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "EXT_PLL1P"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "EXT_PLL1N"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "EXT_PLL2P"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "EXT_PLL2N"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/CRESET_B"
       },
       {
-        "netclass": "FPGA",
+        "netclass": "Default",
         "pattern": "/FPGA + SRAM/FPGA/F"
       }
     ]
@@ -1061,12 +1051,30 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
