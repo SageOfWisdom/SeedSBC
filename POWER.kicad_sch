@@ -2295,21 +2295,23 @@
 	)
 	(text "2.5V @ 1A\nVCCAUX"
 		(exclude_from_sim no)
-		(at 123.19 98.806 0)
+		(at 116.332 98.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "35fcbead-804f-4646-a6d2-4ec30b1c8178")
 	)
 	(text "3.3V @ 2A Max\nSys. I/O"
 		(exclude_from_sim no)
-		(at 224.028 87.122 0)
+		(at 219.964 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "a3b6011e-8e7e-45fd-89e6-7f41b44f7668")
 	)
@@ -2325,13 +2327,34 @@
 	)
 	(text "1.2V @ 1A\nFPGA VCC"
 		(exclude_from_sim no)
-		(at 224.536 42.418 0)
+		(at 219.71 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "e6d73e4c-82aa-438c-8e51-f7223407a2aa")
+	)
+	(text_box "JST"
+		(exclude_from_sim no)
+		(at 53.34 62.23 0)
+		(size 6.35 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left top)
+		)
+		(uuid "29f93e4c-20f5-477b-9858-ea2ded778a5e")
 	)
 	(junction
 		(at 248.92 125.73)
@@ -6893,7 +6916,7 @@
 		(dnp no)
 		(uuid "aef5f21f-d7a5-4bdf-83fa-60f634f94243")
 		(property "Reference" "J3"
-			(at 55.88 69.088 0)
+			(at 56.388 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6924,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 45.72 68.326 0)
+			(at 44.958 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
