@@ -1,0 +1,202 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.3"
+    },
+    "CreationDate": "2025-10-26T12:54:33-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "SeedSBC_rev1_1",
+      "GUID": "53656564-5342-4435-9f72-6576315f312e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 76.25,
+      "Y": 50.85
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.15
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "SeedSBC_rev1_1-TOP_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-GND_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-Sig1_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-Sig2_Cu.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-PWR_Cu.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-BTM_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "SeedSBC_rev1_1-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "TOP.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "TOP.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from TOP.Cu to GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "GND.Cu/Sig1.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to Sig1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Sig1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "Sig1.Cu/Sig2.Cu",
+      "Notes": "Type: dielectric layer 3 (from Sig1.Cu to Sig2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Sig2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "Sig2.Cu/PWR.Cu",
+      "Notes": "Type: dielectric layer 4 (from Sig2.Cu to PWR.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "PWR.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "PWR.Cu/BTM.Cu",
+      "Notes": "Type: dielectric layer 5 (from PWR.Cu to BTM.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "BTM.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
