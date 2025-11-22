@@ -1,5 +1,4 @@
 # SeedSBC
-[OrangeCrab Web site](https://orangecrab-fpga.github.io/orangecrab-hardware/)
 
 ## ICE40HX8K FPGA development board.
 ![Front Photo](documentation/images/Front_3D_View.png "Front Photo")
@@ -51,7 +50,7 @@ This is an Open Source Hardware single board computer and development board impl
 ![Back Photo](documentation/images/Back_3D_View.png "Back Photo")
 
 ## Example code
-Example code for Verilog, Litex, And RiscV can be found here:
+Example code for Verilog, And RiscV AVR can be found here:
 
 * [ToDo]()
 
